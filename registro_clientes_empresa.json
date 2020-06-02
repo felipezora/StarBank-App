@@ -1,0 +1,42 @@
+[{
+  "Nit": "sa",
+  "NombreEmpresa": "sa",
+  "SectorComercial": "as",
+  "Doc": "as",
+  "Nombre": "a",
+  "Telefono": "sa",
+  "Ocupacion": "as",
+  "Direccion": "sa",
+  "Cuentas": null,
+  "EstaSuscrito": false
+},{
+  "Nit": "sa",
+  "NombreEmpresa": "sa",
+  "SectorComercial": "as",
+  "Doc": "as",
+  "Nombre": "a",
+  "Telefono": "sa",
+  "Ocupacion": "as",
+  "Direccion": "sa",
+  "Cuentas": null,
+  "EstaSuscrito": false
+},{
+  "Doc": "nel",
+  "Nombre": "ne",
+  "Telefono": "ne",
+  "Ocupacion": "n",
+  "Direccion": "ne",
+  "Cuentas": null,
+  "EstaSuscrito": false
+},{
+  "Nit": "k",
+  "NombreEmpresa": "k",
+  "SectorComercial": "k",
+  "Doc": "k",
+  "Nombre": "k",
+  "Telefono": "k",
+  "Ocupacion": "k",
+  "Direccion": "k",
+  "Cuentas": null,
+  "EstaSuscrito": false
+}]

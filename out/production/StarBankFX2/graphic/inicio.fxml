@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="graphic.ControladorSinOperacion">
+   <children>
+      <Label layoutX="177.0" layoutY="48.0" text="Bienvenido a StarBank">
+         <font>
+            <Font name="Arial" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="142.0" layoutY="127.0" text="Seleccione el cajero desde el cual está ingresando">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="142.0" layoutY="200.0" mnemonicParsing="false" onAction="#clickCliente_action" text="Cliente" />
+      <Button layoutX="416.0" layoutY="200.0" mnemonicParsing="false" onAction="#clickCajero_action" text="Cajero" />
+   </children>
+</AnchorPane>
