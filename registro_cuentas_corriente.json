@@ -1,0 +1,29 @@
+[{
+  "IdCuenta": "ldnhad",
+  "ClienteTitular": {
+    "Doc": "s",
+    "Nombre": "s",
+    "Telefono": "s",
+    "Ocupacion": "s",
+    "Direccion": "s",
+    "EstaSuscrito": false
+  },
+  "SaldoCuenta": 0.0,
+  "EstaActiva": false,
+  "LugarApertura": null,
+  "Operaciones": null
+},{
+  "IdCuenta": "alt1fg",
+  "ClienteTitular": {
+    "Doc": "s",
+    "Nombre": "s",
+    "Telefono": "s",
+    "Ocupacion": "s",
+    "Direccion": "s",
+    "EstaSuscrito": false
+  },
+  "SaldoCuenta": 0.0,
+  "EstaActiva": false,
+  "LugarApertura": null,
+  "Operaciones": null
+}]

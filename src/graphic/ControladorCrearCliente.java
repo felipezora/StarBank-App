@@ -1,47 +1,41 @@
 package graphic;
 
 import javafx.fxml.FXML;
+import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import sample.Cajero;
 
-public class ControladorCreacion {
+public class ControladorCrearCliente {
+
+    // Elementos del cliente Empresa
 
     @FXML
     private TextField txtDocuREmpresa;
-
     @FXML
     private TextField txtTelREmpresa;
-
     @FXML
     private TextField txtNomREmpresa;
-
     @FXML
     private TextField txtOcuREmpresa;
-
     @FXML
     private TextField txtNitEmpresa;
-
     @FXML
     private TextField txtNomEmpresa;
-
     @FXML
     private TextField txtSecEmpresa;
-
     @FXML
     private TextField txtDirEmpresa;
-
     @FXML
-    private TextField txtDocuPer;
 
+    //Elementos del cliente Persona Natural
+
+    private TextField txtDocuPer;
     @FXML
     private TextField txtTelPer;
-
     @FXML
     private TextField txtNomPer;
-
     @FXML
     private TextField txtOcuPer;
-
     @FXML
     private TextField txtDirPer;
 

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="graphic.ControladorCrearCuenta">
+   <children>
+      <Label layoutX="141.0" layoutY="53.0" text="Id de la cuenta" />
+      <Label layoutX="141.0" layoutY="96.0" text="Id del cliente titular de la cuenta" />
+      <Label layoutX="141.0" layoutY="183.0" text="Tipo de cuenta que desea abrir" />
+      <Label fx:id="lbIdCuenta" layoutX="341.0" layoutY="53.0" />
+      <Button layoutX="415.0" layoutY="49.0" mnemonicParsing="false" onAction="#generarIdCuenta_action" text="Generar Id" />
+      <TextField fx:id="txtClienteTitular" layoutX="341.0" layoutY="92.0" />
+      <ChoiceBox fx:id="cuentaBox" layoutX="341.0" layoutY="179.0" prefWidth="150.0" />
+      <Button layoutX="282.0" layoutY="286.0" mnemonicParsing="false" onAction="#clickGuardar_action" text="Guardar" />
+      <Label fx:id="lbAlerta" layoutX="286.0" layoutY="239.0" />
+   </children>
+</AnchorPane>

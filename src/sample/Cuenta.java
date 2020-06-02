@@ -1,6 +1,6 @@
 package sample;
 
-public abstract class Cuenta {
+public class Cuenta {
 
     protected String idCuenta;
     protected Cliente clienteTitular;

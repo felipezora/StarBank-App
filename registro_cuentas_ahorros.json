@@ -1,0 +1,16 @@
+[{
+  "InteresMensual": 0.0,
+  "IdCuenta": "64gk85",
+  "ClienteTitular": {
+    "Doc": "s",
+    "Nombre": "s",
+    "Telefono": "s",
+    "Ocupacion": "s",
+    "Direccion": "s",
+    "EstaSuscrito": false
+  },
+  "SaldoCuenta": 0.0,
+  "EstaActiva": false,
+  "LugarApertura": null,
+  "Operaciones": null
+}]

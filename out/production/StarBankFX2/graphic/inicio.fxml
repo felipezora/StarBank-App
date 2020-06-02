@@ -16,7 +16,6 @@
             <Font size="14.0" />
          </font>
       </Label>
-      <Button layoutX="142.0" layoutY="200.0" mnemonicParsing="false" onAction="#clickCliente_action" text="Cliente" />
-      <Button layoutX="416.0" layoutY="200.0" mnemonicParsing="false" onAction="#clickCajero_action" text="Cajero" />
+      <Button layoutX="271.0" layoutY="200.0" mnemonicParsing="false" onAction="#clickCajero_action" text="Cajero" />
    </children>
 </AnchorPane>

@@ -1,12 +1,11 @@
 package sample;
 
-public abstract class Cliente {
+public class Cliente {
     protected String doc;
     protected String nombre;
     protected String telefono;
     protected String ocupacion;
     protected String direccion;
-    protected Cuenta[] cuentas;
     protected boolean estaSuscrito = false; // cuando se añada la primera cuenta al cliente, pasará a estar suscrito
 
     public Cliente(String doc, String nombre, String telefono, String ocupacion, String direccion) {
@@ -63,13 +62,5 @@ public abstract class Cliente {
 
     public void setEstaSuscrito(boolean estaSuscrito) {
         this.estaSuscrito = estaSuscrito;
-    }
-
-    public Cuenta[] getCuentas() {
-        return cuentas;
-    }
-
-    public void setCuentas(Cuenta[] cuentas) {
-        this.cuentas = cuentas;
     }
 }

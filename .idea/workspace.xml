@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/graphic/ControladorCreacion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/graphic/ControladorSinOperacion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StarBankFX2/graphic/ControladorSinOperacion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/graphic/cajero.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StarBankFX2/graphic/cajero.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/graphic/cliente.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/graphic/crearcliente.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StarBankFX2/graphic/crearcliente.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/graphic/inicio.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StarBankFX2/graphic/inicio.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/json/Serializador.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StarBankFX2/json/Serializador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/json/registro_clientes_empresa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/sample/Cajero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StarBankFX2/sample/Cajero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/sample/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StarBankFX2/sample/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/sample/Cuenta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StarBankFX2/sample/Cuenta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/sample/CuentaAhorros.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StarBankFX2/sample/CuentaAhorros.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registro_clientes_empresa.json" beforeDir="false" afterPath="$PROJECT_DIR$/registro_clientes_empresa.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphic/ControladorCreacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphic/ControladorCrearCuenta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphic/ControladorSinOperacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphic/ControladorSinOperacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphic/cajero.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphic/cajero.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphic/cliente.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphic/crearcliente.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphic/crearcliente.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphic/inicio.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphic/inicio.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/json/Serializador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/json/Serializador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/json/registro_clientes_empresa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Cajero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Cajero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Cuenta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/CuentaAhorros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/CuentaAhorros.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,8 +92,12 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectId" id="1bjJKRIUlT7as3u5Gt56z2pvoWI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -84,7 +116,7 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pruebecita" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -210,26 +242,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="479" y="249" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1589200230478" />
-    <state x="389" y="105" key="FileChooserDialogImpl" timestamp="1590784035646">
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591113229011">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="389" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590784035646" />
-    <state width="1323" height="176" key="GridCell.Tab.0.bottom" timestamp="1591108472131">
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1591113229011" />
+    <state x="389" y="105" key="FileChooserDialogImpl" timestamp="1591114173389">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="176" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591108472131" />
-    <state width="1323" height="176" key="GridCell.Tab.0.center" timestamp="1591108472131">
+    <state x="389" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1591114173389" />
+    <state width="1323" height="176" key="GridCell.Tab.0.bottom" timestamp="1591140005081">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="176" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591108472131" />
-    <state width="1323" height="176" key="GridCell.Tab.0.left" timestamp="1591108472130">
+    <state width="1323" height="176" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591140005081" />
+    <state width="1323" height="176" key="GridCell.Tab.0.center" timestamp="1591140005080">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="176" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591108472130" />
-    <state width="1323" height="176" key="GridCell.Tab.0.right" timestamp="1591108472131">
+    <state width="1323" height="176" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591140005080" />
+    <state width="1323" height="176" key="GridCell.Tab.0.left" timestamp="1591140005080">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="176" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591108472131" />
+    <state width="1323" height="176" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591140005080" />
+    <state width="1323" height="176" key="GridCell.Tab.0.right" timestamp="1591140005081">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="176" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591140005081" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1589589189378">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -258,5 +294,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1590784301978" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1591130660923">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1591130660923" />
   </component>
 </project>
