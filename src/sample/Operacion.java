@@ -5,15 +5,15 @@ import java.time.LocalDateTime;
 public abstract class Operacion {
 
     protected String nombreOperacion;
+    protected Cuenta cuentaObjetivo;
     protected LocalDateTime tiempo;
     protected Sucursal sucursalOrigen;
-    protected String idCuentaObjetivo;
 
-    public Operacion(String nombreOperacion, LocalDateTime tiempo, Sucursal sucursalOrigen, String idCuentaObjetivo) {
+    public Operacion(String nombreOperacion, Cuenta cuentaObjetivo, LocalDateTime tiempo, Sucursal sucursalOrigen) {
         this.nombreOperacion = nombreOperacion;
+        this.cuentaObjetivo = cuentaObjetivo;
         this.tiempo = tiempo;
         this.sucursalOrigen = sucursalOrigen;
-        this.idCuentaObjetivo = idCuentaObjetivo;
     }
 
     public String getNombreOperacion() {
@@ -22,6 +22,14 @@ public abstract class Operacion {
 
     public void setNombreOperacion(String nombreOperacion) {
         this.nombreOperacion = nombreOperacion;
+    }
+
+    public Cuenta getCuentaObjetivo() {
+        return cuentaObjetivo;
+    }
+
+    public void setCuentaObjetivo(Cuenta cuentaObjetivo) {
+        this.cuentaObjetivo = cuentaObjetivo;
     }
 
     public LocalDateTime getTiempo() {
@@ -38,13 +46,5 @@ public abstract class Operacion {
 
     public void setSucursalOrigen(Sucursal sucursalOrigen) {
         this.sucursalOrigen = sucursalOrigen;
-    }
-
-    public String getIdCuentaObjetivo() {
-        return idCuentaObjetivo;
-    }
-
-    public void setIdCuentaObjetivo(String idCuentaObjetivo) {
-        this.idCuentaObjetivo = idCuentaObjetivo;
     }
 }

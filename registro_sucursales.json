@@ -1,0 +1,16 @@
+[{
+  "IdSucursal": "123",
+  "DireccionSucursal": "Calle 48 No. 54 - 84",
+  "CiudadSucursal": "Medellin",
+  "NombreSucursal": "Centro"
+},{
+  "IdSucursal": "234",
+  "DireccionSucursal": "Cra. 47 No. 53 - 45",
+  "CiudadSucursal": "Medellin",
+  "NombreSucursal": "Parque Bolivar"
+},{
+  "IdSucursal": "777",
+  "DireccionSucursal": "Carrera. 33 No. 107A - 45",
+  "CiudadSucursal": "Medellin",
+  "NombreSucursal": "Santo Domingo"
+}]

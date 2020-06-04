@@ -1,5 +1,5 @@
 [{
-  "IdCuenta": "ldnhad",
+  "IdCuenta": "uf17jm",
   "ClienteTitular": {
     "Doc": "s",
     "Nombre": "s",
@@ -10,20 +10,11 @@
   },
   "SaldoCuenta": 0.0,
   "EstaActiva": false,
-  "LugarApertura": null,
-  "Operaciones": null
-},{
-  "IdCuenta": "alt1fg",
-  "ClienteTitular": {
-    "Doc": "s",
-    "Nombre": "s",
-    "Telefono": "s",
-    "Ocupacion": "s",
-    "Direccion": "s",
-    "EstaSuscrito": false
+  "LugarApertura": {
+    "IdSucursal": "123",
+    "DireccionSucursal": "Calle 48 No. 54 - 84",
+    "CiudadSucursal": "Medellin",
+    "NombreSucursal": "Centro"
   },
-  "SaldoCuenta": 0.0,
-  "EstaActiva": false,
-  "LugarApertura": null,
   "Operaciones": null
 }]

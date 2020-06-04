@@ -4,18 +4,10 @@ import java.time.LocalDateTime;
 
 public class OperacionConSaldo extends Operacion {
 
-    protected float saldo;
+    protected double saldo;
 
-    public OperacionConSaldo(String nombreOperacion, LocalDateTime tiempo, Sucursal surcursalOrigen, String idCuentaObjetivo, float saldo) {
-        super(nombreOperacion, tiempo, surcursalOrigen, idCuentaObjetivo);
-        this.saldo = saldo;
-    }
-
-    public float getSaldo() {
-        return saldo;
-    }
-
-    public void setSaldo(float saldo) {
+    public OperacionConSaldo(String nombreOperacion, Cuenta cuentaObjetivo, LocalDateTime tiempo, Sucursal sucursalOrigen, double saldo) {
+        super(nombreOperacion, cuentaObjetivo, tiempo, sucursalOrigen);
         this.saldo = saldo;
     }
 }

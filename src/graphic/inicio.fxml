@@ -4,18 +4,19 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="graphic.ControladorSinOperacion">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="graphic.ControladorInicio">
    <children>
       <Label layoutX="177.0" layoutY="48.0" text="Bienvenido a StarBank">
          <font>
             <Font name="Arial" size="25.0" />
          </font>
       </Label>
-      <Label layoutX="142.0" layoutY="127.0" text="Seleccione el cajero desde el cual está ingresando">
+      <Label layoutX="142.0" layoutY="127.0" text="Seleccione la sucursal desde la cual está ingresando">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <Button layoutX="271.0" layoutY="200.0" mnemonicParsing="false" onAction="#clickCajero_action" text="Cajero" />
+      <Button layoutX="266.0" layoutY="266.0" mnemonicParsing="false" onAction="#clickContinuar_action" text="Continuar" />
+      <ChoiceBox fx:id="sucursalBox" layoutX="225.0" layoutY="200.0" prefWidth="150.0" />
    </children>
 </AnchorPane>

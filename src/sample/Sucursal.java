@@ -1,16 +1,22 @@
 package sample;
 
+import java.util.Date;
+
 public class Sucursal {
     private String idSucursal;
     private String direccionSucursal;
     private String ciudadSucursal;
     private String nombreSucursal;
 
-    public Sucursal(String idSucursal, String direccionSucursal, String ciudadSucursal, String nombreSucursal) {
-        this.idSucursal = idSucursal;
-        this.direccionSucursal = direccionSucursal;
-        this.ciudadSucursal = ciudadSucursal;
-        this.nombreSucursal = nombreSucursal;
+    private static Sucursal singleton;
+
+    private Sucursal(){}
+
+    public static Sucursal getInstance(){
+        if(singleton == null){
+            singleton = new Sucursal();
+        }
+        return singleton;
     }
 
     public String getIdSucursal() {

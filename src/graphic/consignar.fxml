@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="graphic.ControladorConsignar">
+   <children>
+      <Label layoutX="113.0" layoutY="55.0" text="Cantidad a consignar:              $" />
+      <Label layoutX="113.0" layoutY="105.0" text="Id de la cuenta a consignar:" />
+      <TextField fx:id="txtCantidad" layoutX="283.0" layoutY="51.0" prefHeight="25.0" prefWidth="129.0" />
+      <TextField fx:id="txtIdCuenta" layoutX="283.0" layoutY="101.0" prefHeight="25.0" prefWidth="129.0" />
+      <Button layoutX="280.0" layoutY="227.0" mnemonicParsing="false" onAction="#guardarConsignacion_action" text="Consignar" />
+      <Label layoutX="113.0" layoutY="153.0" text="Id de la operación:" />
+      <Button layoutX="450.0" layoutY="149.0" mnemonicParsing="false" onAction="#generarIdOperacion_action" text="Generar Id" />
+      <Label fx:id="lbIdOperacion" layoutX="286.0" layoutY="153.0" />
+   </children>
+</AnchorPane>

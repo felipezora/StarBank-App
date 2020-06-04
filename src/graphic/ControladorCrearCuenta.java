@@ -2,6 +2,7 @@ package graphic;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.scene.control.Alert;
 import javafx.scene.control.ChoiceBox;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
@@ -19,8 +20,6 @@ public class ControladorCrearCuenta {
     private Label lbIdCuenta;
     @FXML
     private TextField txtClienteTitular;
-    @FXML
-    private Label lbAlerta;
 
     @FXML
     private void initialize(){ // método para poder desplegar la comboBox (la etiqueta @FXML obliga a que se ejecute)
@@ -29,7 +28,7 @@ public class ControladorCrearCuenta {
     }
 
     public void generarIdCuenta_action(){
-        String id = RandomGenerator.randomGeneration();
+        String id = RandomGenerator.generateTypeOne();
         lbIdCuenta.setText(id);
     }
 
@@ -41,10 +40,26 @@ public class ControladorCrearCuenta {
         String tipoCuenta = (String) cuentaBox.getValue();
         if(Buscador.buscaCliente(idClienteTitular) != null){
             Cajero.crearCuenta(idClienteTitular,idCuenta,tipoCuenta);
-            lbAlerta.setText("Titular de la cuenta encontrado");
+            desplegarVentanaConfirmacion();
         }
         else {
-            lbAlerta.setText("Alerta: Ingrese un id válido para el titular de la cuenta");
+            desplegarVentanaAlerta();
         }
+    }
+
+    public void desplegarVentanaAlerta(){
+        Alert a = new Alert(Alert.AlertType.WARNING);
+        a.setTitle("¡ATENCION!");
+        a.setContentText("Por favor ingrese un id válido para el titular de la cuenta");
+        a.setHeaderText(null);
+        a.showAndWait();
+    }
+
+    public void desplegarVentanaConfirmacion(){
+        Alert a = new Alert(Alert.AlertType.INFORMATION);
+        a.setTitle("¡ATENCION!");
+        a.setContentText("Cuenta creada con éxito");
+        a.setHeaderText(null);
+        a.showAndWait();
     }
 }

@@ -8,7 +8,7 @@
       <Label layoutX="168.0" layoutY="69.0" text="Seleccione el tipo de operación que desea realizar" />
       <Button layoutX="69.0" layoutY="147.0" mnemonicParsing="false" onAction="#clickAperturaCuenta_action" text="Apertura de cuenta" />
       <Button layoutX="275.0" layoutY="188.0" mnemonicParsing="false" text="Retiro" />
-      <Button layoutX="275.0" layoutY="147.0" mnemonicParsing="false" text="Consignación" />
+      <Button layoutX="275.0" layoutY="147.0" mnemonicParsing="false" onAction="#clickConsignar_action" text="Consignación" />
       <Button layoutX="69.0" layoutY="188.0" mnemonicParsing="false" text="Desactivación de cuenta" />
       <Button layoutX="407.0" layoutY="188.0" mnemonicParsing="false" onAction="#clickRegistrar_action" text="Registrar Cliente" />
    </children>

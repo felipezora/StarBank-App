@@ -1,8 +1,7 @@
 package json;
 
 import com.google.gson.*;
-import sample.ClienteEmpresa;
-import sample.ClientePersona;
+import sample.*;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -48,7 +47,7 @@ public class Serializador {
         }
     }
 
-    public static void editarJson(){}
+    public static void serializarCuenta(Cuenta[] cuentas, String archivo){}
 
     public static ClientePersona[] deserializarClientePersona(String archivo) {
         Gson gson = new GsonBuilder().disableHtmlEscaping()
@@ -94,4 +93,69 @@ public class Serializador {
         return objetos;
     }
 
+    public static CuentaCorriente[] deserializarCuentaCorriente(String archivo) {
+        Gson gson = new GsonBuilder().disableHtmlEscaping()
+                .setFieldNamingPolicy(FieldNamingPolicy.UPPER_CAMEL_CASE)
+                .setPrettyPrinting()
+                .serializeNulls()
+                .create();
+        String json = "";
+
+        try (BufferedReader br = new BufferedReader(new FileReader(archivo))){
+            String line;
+            while ((line = br.readLine()) != null) {
+                json+= line;
+            }
+
+        } catch (IOException ex) {
+            System.out.println(ex.getMessage());
+        }
+
+        CuentaCorriente[] objetos = gson.fromJson(json, CuentaCorriente[].class);
+        return objetos;
+    }
+
+    public static CuentaAhorros[] deserializarCuentaAhorros(String archivo) {
+        Gson gson = new GsonBuilder().disableHtmlEscaping()
+                .setFieldNamingPolicy(FieldNamingPolicy.UPPER_CAMEL_CASE)
+                .setPrettyPrinting()
+                .serializeNulls()
+                .create();
+        String json = "";
+
+        try (BufferedReader br = new BufferedReader(new FileReader(archivo))){
+            String line;
+            while ((line = br.readLine()) != null) {
+                json+= line;
+            }
+
+        } catch (IOException ex) {
+            System.out.println(ex.getMessage());
+        }
+
+        CuentaAhorros[] objetos = gson.fromJson(json, CuentaAhorros[].class);
+        return objetos;
+    }
+
+    public static Sucursal[] deserializarSucursales(String archivo) {
+        Gson gson = new GsonBuilder().disableHtmlEscaping()
+                .setFieldNamingPolicy(FieldNamingPolicy.UPPER_CAMEL_CASE)
+                .setPrettyPrinting()
+                .serializeNulls()
+                .create();
+        String json = "";
+
+        try (BufferedReader br = new BufferedReader(new FileReader(archivo))){
+            String line;
+            while ((line = br.readLine()) != null) {
+                json+= line;
+            }
+
+        } catch (IOException ex) {
+            System.out.println(ex.getMessage());
+        }
+
+        Sucursal[] objetos = gson.fromJson(json, Sucursal[].class);
+        return objetos;
+    }
 }
