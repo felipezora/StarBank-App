@@ -1,0 +1,15 @@
+[{
+  "Doc": "000",
+  "Nombre": "starbank",
+  "Telefono": "starbank",
+  "Ocupacion": "starbank",
+  "Direccion": "starbank",
+  "EstaSuscrito": true
+},{
+  "Doc": "12333",
+  "Nombre": "asaas",
+  "Telefono": "1233",
+  "Ocupacion": "asass",
+  "Direccion": "asas",
+  "EstaSuscrito": true
+}]

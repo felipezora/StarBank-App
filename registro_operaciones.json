@@ -1,0 +1,58 @@
+[{
+  "ValorOperacion": 20000.0,
+  "NombreOperacion": "Consignación",
+  "CuentaObjetivo": {
+    "IdCuenta": "2h4g20",
+    "ClienteTitular": {
+      "Doc": "12333",
+      "Nombre": "asaas",
+      "Telefono": "1233",
+      "Ocupacion": "asass",
+      "Direccion": "asas",
+      "EstaSuscrito": false
+    },
+    "SaldoCuenta": 20000.0,
+    "EstaActiva": false,
+    "LugarApertura": {
+      "IdSucursal": "123",
+      "DireccionSucursal": "Calle 48 No. 54 - 84",
+      "CiudadSucursal": "Medellin",
+      "NombreSucursal": "Centro"
+    }
+  },
+  "Tiempo": "Jun 5, 2020, 7:44:43 PM",
+  "SucursalOrigen": {
+    "IdSucursal": "123",
+    "DireccionSucursal": "Calle 48 No. 54 - 84",
+    "CiudadSucursal": "Medellin",
+    "NombreSucursal": "Centro"
+  }
+},{
+  "NombreOperacion": "Activación de cuenta",
+  "CuentaObjetivo": {
+    "IdCuenta": "2h4g20",
+    "ClienteTitular": {
+      "Doc": "12333",
+      "Nombre": "asaas",
+      "Telefono": "1233",
+      "Ocupacion": "asass",
+      "Direccion": "asas",
+      "EstaSuscrito": false
+    },
+    "SaldoCuenta": 20000.0,
+    "EstaActiva": true,
+    "LugarApertura": {
+      "IdSucursal": "123",
+      "DireccionSucursal": "Calle 48 No. 54 - 84",
+      "CiudadSucursal": "Medellin",
+      "NombreSucursal": "Centro"
+    }
+  },
+  "Tiempo": "Jun 5, 2020, 7:44:43 PM",
+  "SucursalOrigen": {
+    "IdSucursal": "123",
+    "DireccionSucursal": "Calle 48 No. 54 - 84",
+    "CiudadSucursal": "Medellin",
+    "NombreSucursal": "Centro"
+  }
+}]

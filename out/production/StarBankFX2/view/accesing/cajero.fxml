@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.transition.ControladorCajero">
+   <children>
+      <Label layoutX="124.0" layoutY="111.0" text="Seleccione el tipo de operación que desea realizar">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Button layoutX="69.0" layoutY="188.0" mnemonicParsing="false" onAction="#clickAperturaCuenta_action" text="Apertura de cuenta" />
+      <Button layoutX="300.0" layoutY="241.0" mnemonicParsing="false" onAction="#clickRetirar_action" text="Retiro" />
+      <Button layoutX="280.0" layoutY="188.0" mnemonicParsing="false" onAction="#clickConsignar_action" text="Consignación" />
+      <Button layoutX="69.0" layoutY="241.0" mnemonicParsing="false" onAction="#clickDesactivacion_action" text="Desactivación de cuenta" />
+      <Button layoutX="432.0" layoutY="188.0" mnemonicParsing="false" onAction="#clickRegistrarCliente_action" text="Registrar Cliente" />
+      <Label layoutX="264.0" layoutY="47.0" text="Cajero">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

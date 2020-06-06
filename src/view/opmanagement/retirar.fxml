@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.accoperation.ControladorRetirar">
+   <children>
+      <Label layoutX="52.0" layoutY="195.0" text="Cantidad a retirar:                                  $">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="52.0" layoutY="136.0" text="Id de la cuenta a retirar:">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <TextField fx:id="txtIdCuenta" layoutX="375.0" layoutY="137.0" prefHeight="25.0" prefWidth="129.0" />
+      <TextField fx:id="txtCantidad" layoutX="375.0" layoutY="196.0" prefHeight="25.0" prefWidth="129.0" />
+      <Button layoutX="286.0" layoutY="316.0" mnemonicParsing="false" onAction="#guardarRetiro_action" text="Retirar" />
+      <Label fx:id="lbIdOperacion" layoutX="52.0" layoutY="50.0" text="Información de la operación">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Label>
+      <Label layoutX="52.0" layoutY="254.0" text="Tipo de cuenta de la cual hará el retiro:">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <ChoiceBox fx:id="tipoCuentaBox" layoutX="375.0" layoutY="255.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>

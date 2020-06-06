@@ -2,30 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/controller/transition/ControladorCajero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datamanagement/Mediador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/account/Cuenta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/graphic/ControladorSinOperacion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StarBankFX2/graphic/ControladorSinOperacion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/graphic/cajero.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StarBankFX2/graphic/cajero.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/graphic/inicio.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StarBankFX2/graphic/inicio.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/json/Serializador.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StarBankFX2/json/Serializador.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/sample/Cajero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StarBankFX2/sample/Cajero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/sample/Cuenta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StarBankFX2/sample/Cuenta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registro_cuentas_corriente.json" beforeDir="false" afterPath="$PROJECT_DIR$/registro_cuentas_corriente.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graphic/ControladorCrearCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphic/ControladorCrearCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graphic/ControladorCrearCuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphic/ControladorCrearCuenta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graphic/ControladorSinOperacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphic/ControladorSinOperacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graphic/cajero.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphic/cajero.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graphic/crearcuenta.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphic/crearcuenta.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graphic/inicio.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphic/inicio.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/json/Buscador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/json/Buscador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/json/Serializador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/json/Serializador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Cajero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Cajero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Cuenta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Operacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Operacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/OperacionConSaldo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/OperacionConSaldo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/OperacionSinSaldo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/OperacionSinSaldo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/RandomGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/RandomGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Sucursal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Sucursal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/graphic/ControladorConsignar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/graphic/ControladorCrearCliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/graphic/ControladorCrearCuenta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/graphic/ControladorInicio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/graphic/ControladorOperacion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/graphic/ControladorSinOperacion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/graphic/cajero.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/graphic/consignar.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/graphic/crearcliente.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/graphic/crearcuenta.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/graphic/desactivacioncuenta.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/graphic/desacuentasinretiro.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/graphic/inicio.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/json/Buscador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/json/Serializador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/sample/Cajero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/sample/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/sample/ClienteEmpresa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/sample/ClientePersona.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/sample/Cuenta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/sample/CuentaAhorros.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/sample/CuentaCorriente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/sample/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/sample/Operacion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/sample/OperacionConSaldo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/sample/OperacionSinSaldo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/sample/RandomGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarBankFX2/sample/Sucursal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/registro_clientes_empresa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/registro_clientes_persona.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/registro_cuentas_ahorros.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/registro_cuentas_corriente.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphic/ControladorConsignar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/accoperation/ControladorConsignar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphic/ControladorCrearCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/creation/ControladorCrearCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphic/ControladorCrearCuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/creation/ControladorCrearCuenta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphic/ControladorInicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/transition/ControladorInicio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphic/ControladorOperacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphic/ControladorSinOperacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphic/cajero.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/accesing/cajero.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphic/consignar.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/opmanagement/consignar.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphic/crearcliente.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/opmanagement/crearcliente.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphic/crearcuenta.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/opmanagement/crearcuenta.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphic/desactivacioncuenta.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphic/desacuentasinretiro.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphic/inicio.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/accesing/inicio.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/json/Buscador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/json/Serializador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datamanagement/Serializador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Cajero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/management/Cajero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/client/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/ClienteEmpresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/client/ClienteEmpresa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/ClientePersona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/client/ClientePersona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Cuenta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/CuentaAhorros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/account/CuentaAhorros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/CuentaCorriente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/account/CuentaCorriente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/StarBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Operacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/operation/Operacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/OperacionConSaldo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/operation/OperacionConSaldo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/OperacionSinSaldo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/operation/OperacionSinSaldo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/RandomGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extra/RandomGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Sucursal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/management/Sucursal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,8 +119,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="FxmlFile" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -113,7 +154,7 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pruebecita" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/graphic" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -121,7 +162,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Felipe\IdeaProjects\StarBankFX2\src\json" />
+      <recent name="C:\Users\Felipe\IdeaProjects\StarBankFX2\src\view\opmanagement" />
+      <recent name="C:\Users\Felipe\IdeaProjects\StarBankFX2\src\view\accesing" />
+      <recent name="C:\Users\Felipe\IdeaProjects\StarBankFX2\src\view\accoperation" />
+      <recent name="C:\Users\Felipe\IdeaProjects\StarBankFX2\src\view\cashieraccesed" />
+      <recent name="C:\Users\Felipe\IdeaProjects\StarBankFX2\src\userGUI" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Felipe\IdeaProjects\StarBankFX2\src\graphic" />
     </key>
   </component>
@@ -152,12 +199,12 @@
       <Port>5050</Port>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <option name="MAIN_CLASS_NAME" value="model.StarBank" />
       <module name="StarBankFX2" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graphic.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -231,10 +278,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1589579445593" />
-    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1591236663222">
+    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1591402460694">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1591236663222" />
+    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1591402460694" />
     <state x="479" y="249" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1589200230478">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -243,57 +290,57 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1591113229011" />
-    <state x="389" y="105" key="FileChooserDialogImpl" timestamp="1591114173389">
+    <state x="389" y="105" key="FileChooserDialogImpl" timestamp="1591395587908">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="389" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1591114173389" />
-    <state width="1323" height="177" key="GridCell.Tab.0.bottom" timestamp="1591237038157">
+    <state x="389" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1591395587908" />
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1591404473227">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="177" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591237038157" />
-    <state width="1323" height="177" key="GridCell.Tab.0.center" timestamp="1591237038156">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591404473227" />
+    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1591404473227">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="177" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591237038156" />
-    <state width="1323" height="177" key="GridCell.Tab.0.left" timestamp="1591237038156">
+    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591404473227" />
+    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1591404473227">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="177" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591237038156" />
-    <state width="1323" height="177" key="GridCell.Tab.0.right" timestamp="1591237038156">
+    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591404473227" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1591404473227">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="177" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591237038156" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1589589189378">
+    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591404473227" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1591404473227">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589589189378" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1589589189378">
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591404473227" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1591404473227">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1589589189378" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1589589189378">
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1591404473227" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1591404473227">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1589589189378" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1589589189378">
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1591404473227" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1591404473227">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1589589189378" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1591404473227" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1589581876669">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1589581876669" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1591199647488">
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1591411245403">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1591199647488" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1591411245403" />
     <state x="65" y="0" key="new project wizard" timestamp="1590784301978">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1590784301978" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1591130660923">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1591250123029">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1591130660923" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1591250123029" />
   </component>
 </project>
